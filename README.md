@@ -54,7 +54,7 @@ alma-estudos-visuais/
 Site estático, sem dependências ou build:
 
 ```bash
-git clone https://github.com/vgermano1711/alma-estudos-visuais.git
+git clone https://github.com/victor-germano/alma-estudos-visuais.git
 cd alma-estudos-visuais
 python3 -m http.server 8000
 # acesse http://localhost:8000
@@ -74,7 +74,7 @@ python3 -m http.server 8000
 
 **Victor Germano** — Desenvolvedor Web Full Stack, IA & Automação
 
-- Portfólio: [vgermano1711.github.io/portfolio-germano-dev](https://vgermano1711.github.io/portfolio-germano-dev)
+- Portfólio: [victor-germano.github.io/portfolio-germano-dev](https://victor-germano.github.io/portfolio-germano-dev)
 - E-mail: dev.germanoo@gmail.com
 - LinkedIn: [linkedin.com/in/victor-germano-65787b2b1](https://linkedin.com/in/victor-germano-65787b2b1)
 
