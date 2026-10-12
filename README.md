@@ -8,7 +8,7 @@
 
 Site desenvolvido para o estúdio Alma Estudos Visuais, com identidade visual exclusiva e layout responsivo. O projeto traduz a linguagem artística do cliente em uma experiência digital imersiva.
 
-Acesse: [almaestudosvisuais.com.br](https://almaestudosvisuais.com.br)
+Demo: [victor-germano.github.io/alma-estudos-visuais](https://victor-germano.github.io/alma-estudos-visuais/)
 
 ---
 
