@@ -1,85 +1,74 @@
-# Alma Estudos Visuais — Site Artístico
+# Alma Estudos Visuais — Artist Studio Website
 
-> Site artístico minimalista com identidade visual personalizada, desenvolvido para estúdio de artes visuais com foco em experiência do usuário e estética refinada.
-
----
-
-## Sobre o Projeto
-
-Site desenvolvido para o estúdio Alma Estudos Visuais, com identidade visual exclusiva e layout responsivo. O projeto traduz a linguagem artística do cliente em uma experiência digital imersiva.
+> Minimalist artist website with custom visual identity, built for a visual arts studio focused on user experience and refined aesthetics.
 
 Demo: [victor-germano.github.io/alma-estudos-visuais](https://victor-germano.github.io/alma-estudos-visuais/)
 
 ---
 
-## Funcionalidades
+## About
 
-- Design minimalista com identidade visual personalizada
-- Galeria de obras e projetos artísticos
-- Layout responsivo (mobile, tablet, desktop)
-- Animações suaves para experiência imersiva
-- Formulário de contato
-- Tipografia e paleta de cores exclusivas
+Website developed for Alma Estudos Visuais studio, featuring an exclusive visual identity and responsive layout. The project translates the client's artistic language into an immersive digital experience.
 
 ---
 
-## Tecnologias
+## Features
 
-| Camada | Tecnologia |
+- Minimalist design with custom visual identity
+- Artwork and project gallery
+- Fully responsive (mobile, tablet, desktop)
+- Smooth animations for immersive experience
+- Contact form
+- Custom typography and color palette
+
+---
+
+## Stack
+
+| Layer | Technology |
 |---|---|
-| Estrutura | HTML5 semântico |
-| Estilo | CSS3 (animações, variáveis CSS, Grid) |
-| Interatividade | JavaScript puro (ES6+) |
+| Structure | Semantic HTML5 |
+| Styles | CSS3 (animations, CSS variables, Grid) |
+| Interactivity | Vanilla JavaScript (ES6+) |
 | Design | Figma |
-| Prototipagem | IA (Lovable / Claude) |
 
 ---
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 alma-estudos-visuais/
-├── index.html          # Página principal (hero, sobre, galeria, contato)
+├── index.html          # Main page (hero, about, gallery, contact)
 ├── css/
-│   └── styles.css      # Estilos, variáveis de tema, animações, responsividade
+│   └── styles.css      # Styles, theme variables, animations, responsiveness
 ├── js/
-│   └── main.js         # Navegação mobile, fade-in ao rolar, validação do formulário
+│   └── main.js         # Mobile nav, scroll fade-in, form validation
 └── README.md
 ```
 
 ---
 
-## Como rodar localmente
+## Running locally
 
-Site estático, sem dependências ou build:
+Static site, no dependencies or build step:
 
 ```bash
 git clone https://github.com/victor-germano/alma-estudos-visuais.git
 cd alma-estudos-visuais
 python3 -m http.server 8000
-# acesse http://localhost:8000
+# open http://localhost:8000
 ```
 
 ---
 
 ## Status
 
-- Estrutura, layout responsivo, navegação e animações de entrada: implementados
-- Galeria: usa blocos de cor como placeholder em `js/main.js` — substituir por imagens reais das obras em uma pasta `assets/obras/`
-- Formulário de contato: validação client-side implementada; sem backend de envio configurado (integrar um serviço como Formspree, EmailJS, ou endpoint próprio)
+- Structure, responsive layout, navigation and entrance animations: implemented
+- Gallery: uses color blocks as placeholder in `js/main.js` — replace with real artwork images in `assets/obras/`
+- Contact form: client-side validation implemented; no email backend configured (integrate Formspree, EmailJS or a custom endpoint)
 
 ---
 
-## Autor
+## License
 
-**Victor Germano** — Desenvolvedor Web Full Stack, IA & Automação
-
-- Portfólio: [victor-germano.github.io/portfolio-germano-dev](https://victor-germano.github.io/portfolio-germano-dev)
-- E-mail: dev.germanoo@gmail.com
-- LinkedIn: [linkedin.com/in/victor-germano-65787b2b1](https://linkedin.com/in/victor-germano-65787b2b1)
-
----
-
-## Licença
-
-MIT License
+MIT
